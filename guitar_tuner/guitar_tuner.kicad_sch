@@ -1743,6 +1743,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 27.94) (xy 57.15 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3b8b36-1eac-47cc-8858-d89206ae089c")
+	)
+	(wire
+		(pts
 			(xy 128.27 53.34) (xy 137.16 53.34)
 		)
 		(stroke
@@ -3032,6 +3042,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 57.15 27.94 0)
+			(uuid "5b81de5b-2397-4b9e-85c3-ddc7b408a9bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3.3V" input
+			(at 57.15 35.56 0)
+			(uuid "27339784-74c4-4265-9922-399f447ec1f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

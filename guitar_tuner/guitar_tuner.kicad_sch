@@ -1,5 +1,203 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "66cd80e7-aa2b-4408-b572-7f7169004942")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 115.57 83.82)
+		(size 31.75 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0b2245cf-bbab-4d44-bbbc-56957a646711")
+		(property "Sheetname" "LED Circuit"
+			(at 115.57 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch1.kicad_sch"
+			(at 115.57 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "guitar_tuner"
+				(path "/66cd80e7-aa2b-4408-b572-7f7169004942"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 128.27)
+		(size 35.56 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "45fd4d01-e263-4e5a-af0b-cb18a369c171")
+		(property "Sheetname" "Display"
+			(at 116.84 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch4.kicad_sch"
+			(at 116.84 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "guitar_tuner"
+				(path "/66cd80e7-aa2b-4408-b572-7f7169004942"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 85.09)
+		(size 36.83 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "48c8b857-6ab3-4c34-8816-149745decb17")
+		(property "Sheetname" "Buzzer Circuit"
+			(at 175.26 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch2.kicad_sch"
+			(at 175.26 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "guitar_tuner"
+				(path "/66cd80e7-aa2b-4408-b572-7f7169004942"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 127)
+		(size 34.29 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "65bf3eee-094c-4833-b5bc-65894fc0b269")
+		(property "Sheetname" "Audio Input Circuit"
+			(at 63.5 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch3.kicad_sch"
+			(at 63.5 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "guitar_tuner"
+				(path "/66cd80e7-aa2b-4408-b572-7f7169004942"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 83.82)
+		(size 33.02 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7e84947d-cc33-4567-bec7-d1c35b9a4fc8")
+		(property "Sheetname" "Power"
+			(at 63.5 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 63.5 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "guitar_tuner"
+				(path "/66cd80e7-aa2b-4408-b572-7f7169004942"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

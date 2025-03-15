@@ -656,6 +656,28 @@
 		)
 		(uuid "fc7e5e22-9347-494d-a23f-1d63a4c31875")
 	)
+	(hierarchical_label "Vin"
+		(shape input)
+		(at 116.84 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bbf62f17-77f4-4975-9488-bd7421e18bf5")
+	)
+	(hierarchical_label "CTRL"
+		(shape input)
+		(at 77.47 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcb1636d-efea-4860-bbe1-65158cac813b")
+	)
 	(symbol
 		(lib_id "Device:Buzzer")
 		(at 119.38 95.25 0)

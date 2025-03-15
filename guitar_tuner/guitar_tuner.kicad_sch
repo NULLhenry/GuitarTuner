@@ -3246,6 +3246,26 @@
 				(justify left top)
 			)
 		)
+		(pin "Vout" output
+			(at 54.61 129.54 0)
+			(uuid "25bc7000-7f6b-43ab-ac6e-d4807f70910c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vin" input
+			(at 54.61 137.16 0)
+			(uuid "cd66eb94-7936-4e70-a33d-c1557c27b6d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "guitar_tuner"
 				(path "/66cd80e7-aa2b-4408-b572-7f7169004942"

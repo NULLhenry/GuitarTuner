@@ -1516,6 +1516,12 @@
 		(uuid "109bfedf-38c6-432f-8669-8107199539a2")
 	)
 	(junction
+		(at 58.42 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dadbc88-e66e-439b-9dda-aedbd6fe3ca1")
+	)
+	(junction
 		(at 137.16 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1526,6 +1532,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4226f2d3-860c-434c-bf4a-9065d627023c")
+	)
+	(junction
+		(at 233.045 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45aecca0-765e-4270-af9f-6da0f19662fb")
 	)
 	(junction
 		(at 213.36 73.66)
@@ -1609,6 +1621,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 133.35) (xy 219.71 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f994f0a-bfc0-464b-9b1d-5e403c443254")
+	)
+	(wire
+		(pts
 			(xy 74.93 74.93) (xy 76.2 74.93)
 		)
 		(stroke
@@ -1616,6 +1638,16 @@
 			(type default)
 		)
 		(uuid "100b7aa8-56b3-4c25-a756-3680f304236f")
+	)
+	(wire
+		(pts
+			(xy 59.69 128.27) (xy 54.61 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16763e7b-e5fe-46b5-9566-c23d3b68fe78")
 	)
 	(wire
 		(pts
@@ -1659,6 +1691,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 91.44) (xy 59.69 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29672fb8-ad60-4b18-8315-fb1aa3bb146f")
+	)
+	(wire
+		(pts
 			(xy 80.01 55.88) (xy 80.01 62.23)
 		)
 		(stroke
@@ -1686,6 +1728,16 @@
 			(type default)
 		)
 		(uuid "3890b955-0937-48f3-b47f-40f42911cedc")
+	)
+	(wire
+		(pts
+			(xy 233.045 133.35) (xy 219.71 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a175797-db80-49c6-9f51-569ec5b6285e")
 	)
 	(wire
 		(pts
@@ -1749,6 +1801,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 91.44) (xy 59.69 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c687baf-0ff1-4ad9-ab8d-7031923ef6ef")
+	)
+	(wire
+		(pts
 			(xy 137.16 53.34) (xy 137.16 57.15)
 		)
 		(stroke
@@ -1809,6 +1871,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 133.35) (xy 233.045 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa9c9444-8eb4-4fb1-83b6-8d6c72439ecd")
+	)
+	(wire
+		(pts
 			(xy 203.2 63.5) (xy 203.2 73.66)
 		)
 		(stroke
@@ -1866,6 +1938,16 @@
 			(type default)
 		)
 		(uuid "e28a3282-4da2-4382-8066-2967666e1e33")
+	)
+	(wire
+		(pts
+			(xy 219.71 110.49) (xy 182.88 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c73ffa-3ae1-42d2-b287-4ea267b649d7")
 	)
 	(wire
 		(pts
@@ -1962,6 +2044,130 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 54.61 134.62 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0606a8f6-4529-43e3-a095-89ccfd7b6e12")
+		(property "Netclass" "AUDIO"
+			(at 57.15 133.9215 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -45.72 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 233.68 137.16 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c79d178-3a16-429f-9ac7-464f81325706")
+		(property "Netclass" "5V"
+			(at 231.14 136.4615 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 3.81 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 182.88 90.17 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3694afed-64b3-480a-ab71-76f5edcb1c5e")
+		(property "Netclass" "AUDIO"
+			(at 185.42 89.4715 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 57.15 31.75 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "61bf09f0-13e6-455d-b6d9-0c38f437774e")
+		(property "Netclass" "5V"
+			(at 59.69 31.0515 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -71.12 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
 			)
 		)
 	)
@@ -3204,6 +3410,26 @@
 				(justify left top)
 			)
 		)
+		(pin "CTRL" input
+			(at 233.045 133.35 180)
+			(uuid "4e9e3612-836a-46bf-958e-12095d630616")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin" input
+			(at 233.045 137.16 180)
+			(uuid "4e3e720c-e254-4c2d-8802-2cef2a783981")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "guitar_tuner"
 				(path "/66cd80e7-aa2b-4408-b572-7f7169004942"
@@ -3244,6 +3470,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Vin" input
+			(at 54.61 128.27 0)
+			(uuid "f5357bc0-a3a3-420b-901b-03f387bc265d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vout" output
+			(at 54.61 134.62 0)
+			(uuid "c520e3d8-0e63-406a-87f1-f770f45c6344")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

@@ -973,7 +973,7 @@
 		(uuid "e0eb79e4-c76d-4e29-9ce7-97c569c451a0")
 	)
 	(hierarchical_label "5V"
-		(shape input)
+		(shape output)
 		(at 81.28 69.85 90)
 		(effects
 			(font
@@ -984,7 +984,7 @@
 		(uuid "7a6875a1-b544-487b-bdc0-6b36c4dcfde8")
 	)
 	(hierarchical_label "3.3V"
-		(shape input)
+		(shape output)
 		(at 115.57 76.2 0)
 		(effects
 			(font

@@ -479,7 +479,17 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/Audio Input Circuit/Vout": [
+        "AUDIO"
+      ],
+      "/Power/5V": [
+        "5V"
+      ],
+      "unconnected-(U1-GPIO5{slash}TOUCH5{slash}ADC1_CH4-Pad5)": [
+        "AUDIO"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {

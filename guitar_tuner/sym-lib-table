@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "esp32")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries-main/symbols/Espressif.kicad_sym")(options "")(descr ""))
   (lib (name "2025-03-15_02-14-28")(type "KiCad")(uri "C:/Users/jonat/Downloads/EA_OLEDM128_6LWA/KiCADv6/2025-03-15_02-14-28.kicad_sym")(options "")(descr ""))
+  (lib (name "NHD-C12832A1Z-FSW-FBW-3V3")(type "KiCad")(uri "${KIPRJMOD}/NHD-C12832A1Z-FSW-FBW-3V3.kicad_sym")(options "")(descr ""))
 )

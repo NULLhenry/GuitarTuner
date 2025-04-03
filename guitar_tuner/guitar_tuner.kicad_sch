@@ -4056,7 +4056,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "45fd4d01-e263-4e5a-af0b-cb18a369c171")
-		(property "Sheetname" "Display"
+		(property "Sheetname" "Display Circuit"
 			(at 16.51 84.3784 0)
 			(effects
 				(font
@@ -4220,7 +4220,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "7e84947d-cc33-4567-bec7-d1c35b9a4fc8")
-		(property "Sheetname" "Power"
+		(property "Sheetname" "Power Circuit"
 			(at 24.13 22.1484 0)
 			(effects
 				(font
@@ -4302,7 +4302,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "991b52bb-6157-43c3-ad9b-1fd2084c4c12")
-		(property "Sheetname" "aasdf"
+		(property "Sheetname" "Buzzer Circuit"
 			(at 248.92 103.4284 0)
 			(effects
 				(font

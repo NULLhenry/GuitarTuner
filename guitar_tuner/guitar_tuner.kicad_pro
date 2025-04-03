@@ -634,7 +634,7 @@
     ],
     [
       "7e84947d-cc33-4567-bec7-d1c35b9a4fc8",
-      "Power"
+      "Power Circuit"
     ],
     [
       "0b2245cf-bbab-4d44-bbbc-56957a646711",
@@ -646,11 +646,11 @@
     ],
     [
       "45fd4d01-e263-4e5a-af0b-cb18a369c171",
-      "Display"
+      "Display Circuit"
     ],
     [
       "991b52bb-6157-43c3-ad9b-1fd2084c4c12",
-      "aasdf"
+      "Buzzer Circuit"
     ]
   ],
   "text_variables": {}

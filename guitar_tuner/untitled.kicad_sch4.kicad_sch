@@ -1595,7 +1595,11 @@
 		)
 		(property "Value" "PWR_FLAG"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			(at 183.642 77.216 0)
+=======
+			(at 178.562 87.884 0)
+>>>>>>> Stashed changes
 =======
 			(at 178.562 87.884 0)
 >>>>>>> Stashed changes

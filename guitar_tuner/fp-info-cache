@@ -1,4 +1,4 @@
-24735605853036833
+24740951915813316
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56826,6 +56826,13 @@ LCD-016N002L 16 x 2 Character LCD
 24
 20
 Display
+LCD_NHD-C12832A1Z-FSW-FBW-3V3
+
+
+0
+19
+19
+Display
 LM16255
 LCD LM16255 16x2 character http://www.datasheetlib.com/datasheet/259542/lm16255_sharp-electronics.html
 LCD 12x2
@@ -64644,6 +64651,13 @@ solder jumper open
 0
 3
 3
+LCD_NUD-C12832A1Z
+LCD_NHD-C12832A1Z-FSW-FBW-3V3
+
+
+0
+19
+19
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -65848,6 +65862,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+MOD41_ESP32-S2-SOLO_EXP
+
+ESP32-S2-SOLO-N4R2 
+0
+49
+49
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

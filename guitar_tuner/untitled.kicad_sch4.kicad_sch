@@ -1900,7 +1900,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NHD-C12832A1Z-FSW-FBW-3V3:LCD_NHD-C12832A1Z-FSW-FBW-3V3"
+		(property "Footprint" "Display:LCD_NHD-C12832A1Z-FSW-FBW-3V3"
 			(at 161.29 109.22 0)
 			(effects
 				(font

@@ -954,6 +954,12 @@
 		(uuid "6facd64f-0fef-46ac-93ae-d662cc4ffb44")
 	)
 	(junction
+		(at 182.88 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9cb11fe-5119-408b-96d2-772ead7f0ea2")
+	)
+	(junction
 		(at 179.07 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1077,7 +1083,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 124.46) (xy 189.23 124.46)
+			(xy 179.07 124.46) (xy 182.88 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1114,6 +1120,16 @@
 			(type default)
 		)
 		(uuid "46ba237b-4dcc-41ea-b9d6-f2be7a388a59")
+	)
+	(wire
+		(pts
+			(xy 182.88 124.46) (xy 189.23 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c173cc-f7e8-4636-9e19-caa1f41f5aca")
 	)
 	(wire
 		(pts
@@ -1616,7 +1632,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "34bd6e92-7de1-4ac8-acd2-7edaa05daaf4")
 		(property "Reference" "#FLG02"
 			(at 179.07 89.535 0)
@@ -1628,7 +1643,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 179.07 86.36 0)
+			(at 183.642 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1804,6 +1819,72 @@
 			(project "guitar_tuner"
 				(path "/66cd80e7-aa2b-4408-b572-7f7169004942/45fd4d01-e263-4e5a-af0b-cb18a369c171"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 182.88 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54c142db-3c74-4352-879a-89c6c9d4d4c7")
+		(property "Reference" "#FLG07"
+			(at 182.88 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 182.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 182.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39004e34-e04c-4d46-9b08-ccfd8f73cb70")
+		)
+		(instances
+			(project ""
+				(path "/66cd80e7-aa2b-4408-b572-7f7169004942/45fd4d01-e263-4e5a-af0b-cb18a369c171"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)

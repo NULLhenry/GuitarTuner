@@ -1730,12 +1730,6 @@
 		(uuid "08ad14da-eb14-407c-b57b-d4f7400959e0")
 	)
 	(junction
-		(at 77.47 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0bb0a9e9-4850-46cd-af58-4643afc7a238")
-	)
-	(junction
 		(at 66.04 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1938,16 +1932,6 @@
 			(type default)
 		)
 		(uuid "100b7aa8-56b3-4c25-a756-3680f304236f")
-	)
-	(wire
-		(pts
-			(xy 77.47 90.17) (xy 77.47 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "139ead6e-9fd2-4a0c-94cd-4f779f0519a7")
 	)
 	(wire
 		(pts
@@ -2291,7 +2275,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 90.17) (xy 86.36 90.17)
+			(xy 55.88 90.17) (xy 86.36 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2308,16 +2292,6 @@
 			(type default)
 		)
 		(uuid "a5d7d849-0467-4d75-805b-ac1b61d9898f")
-	)
-	(wire
-		(pts
-			(xy 55.88 90.17) (xy 77.47 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6a6f9ff-5160-4143-9af0-9e7e649a38d7")
 	)
 	(wire
 		(pts
@@ -2478,16 +2452,6 @@
 			(type default)
 		)
 		(uuid "e6c73ffa-3ae1-42d2-b287-4ea267b649d7")
-	)
-	(wire
-		(pts
-			(xy 77.47 97.79) (xy 55.88 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef255057-ab63-4ed6-a80d-b6748e4b995a")
 	)
 	(wire
 		(pts
@@ -3997,16 +3961,6 @@
 		(pin "SCL" input
 			(at 55.88 100.33 0)
 			(uuid "9d031988-a07f-4551-ba2b-39fcef8d5d70")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "3.3V" input
-			(at 55.88 97.79 0)
-			(uuid "6aef5152-874e-4dae-a1b8-5205bacd4cfa")
 			(effects
 				(font
 					(size 1.27 1.27)

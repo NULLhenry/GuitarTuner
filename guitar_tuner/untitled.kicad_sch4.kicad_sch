@@ -942,6 +942,12 @@
 		(uuid "29587477-bc28-489a-9f6f-f9a67e1da186")
 	)
 	(junction
+		(at 184.785 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38a8faa5-9113-4dae-848a-6bc4bfe08960")
+	)
+	(junction
 		(at 185.42 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1077,7 +1083,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 124.46) (xy 189.23 124.46)
+			(xy 179.07 124.46) (xy 184.785 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1114,6 +1120,16 @@
 			(type default)
 		)
 		(uuid "46ba237b-4dcc-41ea-b9d6-f2be7a388a59")
+	)
+	(wire
+		(pts
+			(xy 184.785 124.46) (xy 189.23 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48ceda89-05f5-4db8-a6ed-65ba6d8dd200")
 	)
 	(wire
 		(pts
@@ -2690,6 +2706,71 @@
 			(project ""
 				(path "/66cd80e7-aa2b-4408-b572-7f7169004942/45fd4d01-e263-4e5a-af0b-cb18a369c171"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 184.785 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d56ab091-dc0d-4bf4-9a60-079228c569cd")
+		(property "Reference" "#FLG08"
+			(at 184.785 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 182.118 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.785 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.785 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 184.785 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ba09a72-89f3-4bad-a1f1-420041b17918")
+		)
+		(instances
+			(project "guitar_tuner"
+				(path "/66cd80e7-aa2b-4408-b572-7f7169004942/45fd4d01-e263-4e5a-af0b-cb18a369c171"
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
